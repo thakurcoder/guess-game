@@ -18,17 +18,17 @@ function work (){
     let ans = document.querySelector("input").value;
     if(ans>n) {
 
-        document.querySelector("div").innerText = "think a smaller number ";
+        document.querySelector("h2").innerText = "think a smaller number ";
         guess++;
     }
     else if(ans<n){
-        document.querySelector("div").innerText = "think a bigger number ";
+        document.querySelector("h2").innerText = "think a bigger number ";
         guess++;
     }
     else{
-        document.querySelector("div").innerText = "you win  ";
+//         document.querySelector("div").innerText = "you win  ";
         guess++;
-        document.querySelector("div").innerText = "you guess the number in "+ guess + " times";
+        document.querySelector("h2").innerText = "you guess the number in "+ guess + " times";
     }
     
 }
