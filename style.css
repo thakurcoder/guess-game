@@ -1,0 +1,36 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+input{
+    text-align: center;
+    margin-left: 40vw;
+    width: 20vw;
+    height: 5vh;
+    font-size: large;
+    background-color: rgb(238, 207, 165);
+}
+button{
+    display: block;
+    margin: 10vh auto;
+    height: 5vh;
+    width: 20vw;
+    font-size: large;
+    background-color: rgb(6, 225, 6);
+    color:rgb(54, 1, 1);
+    
+}
+
+#hint{
+    text-align: center;
+    font-size: large;
+    color: rgb(2, 55, 74);
+}
